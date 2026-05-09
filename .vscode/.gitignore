@@ -1,0 +1,13 @@
+# Abaikan fail installer yang berat
+*.exe
+*.zip
+*.msi
+
+# Abaikan folder library yang berat (React & Java)
+node_modules/
+target/
+.gradle/
+build/
+
+# Abaikan fail setting VS Code
+.vscode/

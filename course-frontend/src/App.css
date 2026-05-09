@@ -1,0 +1,118 @@
+/* Page spacing & background */
+.App {
+  padding: 50px 20px;
+  background-color: #f8fafc;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+
+.page-title {
+  color: #1e3a8a;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.instructor-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Card Styling (Exercise 3 Requirements) */
+.card {
+  border: 1px solid #ddd;
+  /* Card border */
+  border-radius: 12px;
+  /* Card rounded corners */
+  padding: 20px;
+  /* Card padding */
+  background: white;
+  cursor: pointer;
+  width: 320px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  transition: all 0.3s ease;
+  /* Transition for hover effect */
+  text-align: left;
+}
+
+/* Different title colour */
+.card h2 {
+  color: #2563eb;
+  margin-top: 0;
+  font-size: 1.4rem;
+}
+
+/* Hover effect */
+.card:hover {
+  background: #f1f5f9;
+  /* Change background on hover */
+  transform: translateY(-5px);
+  /* Move up slightly */
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+  border-color: #2563eb;
+}
+
+.card p {
+  margin: 10px 0;
+  color: #475569;
+}
+
+/* Status Badge Styling */
+.status-badge {
+  padding: 4px 12px;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.active {
+  background-color: #dcfce7;
+  color: #166534;
+}
+
+.inactive {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+/* Tambah ini di bahagian bawah App.css */
+.toolbar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.toolbar input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 240px;
+  max-width: 300px;
+}
+
+.toolbar select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+}
+
+.clear-btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  backgroundColor: #ef4444;
+  color: white;
+  border: none;
+}
+
+.summary {
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+}
